@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body1 {
+    position: absolute;
+    background-color: #cbebdf;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    width: 90%;
+    height: 90vh;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 5%;
+    -webkit-box-shadow: 0px 14px 21px -18px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 14px 21px -18px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 14px 21px -18px rgba(0, 0, 0, 0.75);
+}
+
+.agendamentos{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 6%;
+    background-color: rgb(241, 241, 241);
+    width: 60%;
+    height: 79vh;
+}
+
+.logoutText{
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    height: 20px;
+    background-color: white;
+    border-top: 2px solid rgb(241, 241, 241);
+    margin-top: 46%;
+}
+
+.logoutText li{
+    position: absolute;
+    color: blueviolet;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logoutText a{
+    text-decoration: none;
+    position: absolute;
+    color: blueviolet;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.wellcomeBox{
+    position: absolute;
+    margin-left: 20%;
+    background-color: rgb(255, 255, 255);
+    border-left: 1px solid rgb(241, 241, 241);
+    border-right: 1px solid rgb(241, 241, 241);
+    width: 736px;
+    height: 12vh;
+    text-align: center;
+}
+
+.wellcomeBox h5{
+    margin-top: 15px;
+    font-size: 40px;
+    color: rgb(226, 43, 211);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.leftMenu{
+    position: absolute;
+    margin-top: 6%;
+    width: 246px;
+    height: 70%;
+    background-color: white;
+    padding-top: 20px;
+    display: column;
+}
+
+.leftMenu a{
+    font-size:20px;
+    color: #414141;
+    text-decoration: none;
+    margin-left: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 0.5s;
+}
+
+.leftMenu a:hover{
+    color: rgb(168, 0, 219);
+    font-size: 23px;
+}
+
+.opcDivision{
+    width: 246px;
+    height: 12%;
+}
+
+.opcDivision img{
+    margin-left: 15px;
+    width: 22px;
+}
+
+.opcTitle{
+    color: rgb(173, 173, 173);
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 5px;
+    padding-bottom: 20px;
+}
+
+.homeBar{
+    width: 249px;
+    padding-bottom: 15px;
+    position: absolute;
+    border-bottom:1px solid rgb(241, 241, 241);
+}
+
+.profImg{
+    z-index: 1;
+    position: absolute;
+    margin-top: 294px;
+    margin-left: 15%;
+}
+
+.profImg img{
+    position: absolute;
+    width: 300px;
+    height: 380px;
+}
+
+.estudantesImg{
+    z-index: 1;
+    position: absolute;
+    margin-top: 295px;
+    margin-left: 80%;
+}
+
+.estudantesImg img{
+    position: absolute;
+    width: 270px;
+    height: 310px;
+}

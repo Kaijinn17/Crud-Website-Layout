@@ -22,11 +22,15 @@
                     <h5>Seja Bem-Vindo!</h5>
                 </li>
             </strong></label>
-        <div class="loginTitle">
-            <h1>Login</h1>
+        <div class="loginTitle" id="registerTitle">
+            <h1>Cadastrar</h1>
         </div>
-        <div class="formLogin">
-        <form action="">
+        <div class="formLogin" id="formRegister">
+            <form action="">
+            <div class="formGroup">
+                <label for="name">Nome Completo:</label><br>
+                <input type="text" name="name">
+            </div>
             <div class="formGroup">
                 <label for="email">Endereço de Email:</label><br>
                 <input type="text" name="email">
@@ -37,13 +41,13 @@
             </div>
             <div id="checkLogin">
                 <input type="checkbox" name="checkLogin" class="checkLogin">
-                <label for="checkLogin">Lembrar Senha</label>
+                <label for="checkLogin">Aceitar Termos</label>
             </div>
             <div class="formGroup">
-                <a type="submit" href="home.html" class="butao" id="butao2">Entar</a>
+                <a href="index.html" class="butao" id="butao2">Cadastrar</a>
             </div>
             <div class="formGroup">
-                <a href="cadastro.html" class="redirect"><li>clique aqui se não tiver uma conta</li></a>
+                <a href="index.html" class="redirect" id="redirect2"><li>clique aqui se já tiver uma conta</li></a>
             </div>
         </form>
         </div>
