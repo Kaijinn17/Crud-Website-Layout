@@ -98,7 +98,7 @@
 
 .leftMenu a:hover{
     color: rgb(168, 0, 219);
-    font-size: 23px;
+    font-size: 24px;
 }
 
 .opcDivision{
@@ -131,6 +131,14 @@
     position: absolute;
     margin-top: 294px;
     margin-left: 15%;
+    transition: 0.5s;
+}
+
+.profImg:hover{
+    z-index: 1;
+    position: absolute;
+    margin-top: 294px;
+    margin-left: 13%;
 }
 
 .profImg img{
@@ -150,4 +158,11 @@
     position: absolute;
     width: 270px;
     height: 310px;
+    transition: 0.5s;
+}
+
+.estudantesImg img:hover{
+    position: absolute;
+    width: 290px;
+    height: 330px;
 }
